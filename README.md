@@ -54,4 +54,4 @@ As tecnologias utilizadas para esse projeto foram:
 - **[react-native-animatable](https://github.com/oblador/react-native-animatable)**
 
 
-> Veja [package.json](https://github.com/eduardovrs/desafio-mobile/blob/master/package.json)
+> Veja [package.json](https://github.com/eduardovrs/desafio-mobile/blob/master/project/package.json)
