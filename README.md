@@ -25,7 +25,7 @@ Além disso, é bom ter um editor para visualizar e navegar pelo do código como
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:edu_vrs/desafio-mobile.git
+$ git clone git@github.com:eduardovrs/desafio-mobile.git
 
 # Acesse a pasta do projeto pelo terminal/cmd
 $ cd desafio-mobile/project
@@ -54,4 +54,4 @@ As tecnologias utilizadas para esse projeto foram:
 - **[react-native-animatable](https://github.com/oblador/react-native-animatable)**
 
 
-> Veja [package.json](https://github.com/edu_vrs/desafio-mobile/blob/master/package.json)
+> Veja [package.json](https://github.com/eduardovrs/desafio-mobile/blob/master/package.json)
