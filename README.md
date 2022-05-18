@@ -1,54 +1,57 @@
-# Teste prático Front-End
+<h1 align="center">
+     Desafio Mobile
+</h1>
 
-Este teste é desenvolvido pela [Qesh](https://www.linkedin.com/company/qesh-payments/) e tem como objetivo avaliar tecnicamente o candidato para a vaga de Front-End.
+<h3 align="center">
+    Aplicativo de criação perfil de usuário, que exibe suas informações básicas e que podem ser editáveis posteriormente.
+</h3>
 
-## **Instruções**
 
-Você deverá criar um `fork` deste repositório. Nesse fork, você encontrará a pasta `project`.
-Todo o código fonte deve ser colocado dentro da pasta `project`.
+## 🚀 Como rodar esse projeto
 
-O repositório deverá ser público e não poderá ter nenhuma menção à Qesh.
+Este é um projeto mobile.
 
-Você terá **96h** para realizar o teste, consideraremos até onde você conseguir chegar com o código.
 
-> Lembrando que não é necessária a conclusão do teste para envio do código.
+### Requisitos
 
-Ao finalizar, responda o email referente ao teste com o link do seu repositório.
+Antes de começar, você vai precisar das seguintes ferramentas instaladas na sua máquina:
+[Git](https://git-scm.com), [Yarn](https://yarnpkg.com/getting-started/install) e [Expo](https://docs.expo.dev/get-started/installation/)
 
-## **Sobre o teste**
+Além disso, é bom ter um editor para visualizar e navegar pelo do código como o [VSCode](https://code.visualstudio.com/)
 
-Você desenvolverá um aplicativo de criação perfil de usuário, que exibirá suas informações básicas e que poderão ser editáveis posteriormente.
+#### 🎲 Rodando a Aplicação
 
-Para isso será ultilizada uma api RESTful, que será responsável por armazenar os dados do usuário e também por retorna-los.
 
-O swagger está disponível neste [link](https://api-desafio-front.dev.qesh.ai/docs/)
+```bash
 
-> Você receberá um login e senha no corpo do email, que será utilizado para buscar as informações do usuário.
+# Clone este repositório
+$ git clone git@github.com:edu_vrs/desafio-mobile.git
 
-## **Layout do projeto**
+# Acesse a pasta do projeto pelo terminal/cmd
+$ cd desafio-mobile/project
 
-Não há um modelo exato de como deve ficar o aplicativo final, mas criamos um [layout](https://www.figma.com/file/4Ple8UryWHXW3K0OiKUAJM/teste-mobile?node-id=6461%3A46765) de exemplo para nortear o desenvolvimento.
+# Instale todas as dependências
+$ yarn install
 
-## **O que nós esperamos do teste**
+# Inicie a aplicação
+$ yarn start
 
-- Demonstrar conhecimento de React Native
-- Demonstrar conhecimento de TypeScript
-- Boas práticas de programação
-- Um README com informações sobre o projeto e guia de uso
-- Histórico de commits do git
-- Organização, semântica, estrutura, legibilidade, manutenibilidade do seu código
-- Alcance dos objetivos propostos
 
-## **Seria ótimo ver no seu teste**
+```
+---
 
-- Testes unitários
-- Documentação do código
+## 🛠 Tech Stack
 
-## **Seria impressionante ver no seu teste**
+As tecnologias utilizadas para esse projeto foram:
 
-- Animações e efeitos
+#### **Mobile** ([React](https://reactjs.org/) + [React Native](https://reactnative.dev/))
 
-## **Não seria bom**
+- **[React](https://reactjs.org/)**
+- **[React Native](https://reactnative.dev/)**
+- **[Expo](https://docs.expo.dev/)**
+- **[react-native-picker](https://github.com/react-native-picker/picker)**
+- **[react-navigation](https://reactnavigation.org/)**
+- **[react-native-animatable](https://github.com/oblador/react-native-animatable)**
 
-- Descobrir que não foi você quem fez seu teste
-- Ver commits grandes, sem muita explicação nas mensagens em seu repositório
+
+> Veja [package.json](https://github.com/edu_vrs/desafio-mobile/blob/master/package.json)
